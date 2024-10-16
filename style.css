@@ -1,0 +1,274 @@
+body {
+    margin: 0;
+    font-family: cursive;
+
+}
+
+header {
+    width: 100%;
+    position: fixed;
+    top: 0;
+    left: 0;
+    background-color:black;
+    z-index: 10;
+    opacity: 0.8;
+  
+}
+
+.navbar {
+    display: flex;
+
+    justify-content: space-between;
+   align-items: center;
+    padding: 9px 20px;
+}
+
+.logo {
+    
+    font-size: 24px;
+    font-weight: bold;
+    color: #333;
+}
+
+.nav-links {
+    padding: 0;
+    list-style: none;
+    display: flex;
+    gap: 20px;
+ 
+    
+}
+
+.nav-links li {
+    display: inline;
+}
+
+.nav-links a {
+    text-decoration: none;
+    color: #ffffff;
+    font-size: 21px;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+.nav-links a:hover {
+    color: #f0a500;
+}
+
+.hero-section {
+    position: relative;
+    height: 100vh;
+    background: url('WhatsApp\ Image\ 2024-10-16\ at\ 19.52.45_06883910.jpg') no-repeat center center;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.hero-overlay {
+    background-color: rgb(0, 0, 0);
+    padding: 20px 40px;
+    border-radius: 10px;
+    opacity: 0.8;
+}
+
+.hero-overlay h1 {
+    color: white;
+    font-size: 48px;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    margin: 0;
+    font-weight: bold;
+    text-align: center;
+}
+
+section {
+    margin-top: 80px;
+}
+
+
+.about{
+display: flex;
+justify-content: center;   
+align-items: center; 
+padding-top: 25px ;
+padding-bottom: 14px;
+font-size: 26px;
+font-weight: 600;
+color: grey;
+font-family: cursive;
+
+}
+
+.photography{
+    display: flex;
+    justify-content: center;   
+    align-items: center; 
+    padding-top:0px ;
+    padding-bottom: 14px;
+    font-size: 16px;
+    font-weight: 600;
+    color: grey;
+    font-style: italic;
+    font-family: cursive;
+}
+
+.para{
+    display: flex;
+    justify-content: center;   
+    align-items: center; 
+    padding-top:0px ;
+    padding-bottom: 14px;
+    padding-left: 100px;
+    padding-right:100px ;
+  font-size: 18px; 
+    color: grey;
+    font-family: cursive;
+}
+
+
+
+.profile-section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 70vh;
+}
+
+.profile-container {
+    display: flex;
+    background-color: white;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    width: 80%;
+    max-width: 900px;
+}
+
+.profile-image img {
+    width: 300px;
+    height: auto;
+    border-radius: 10px;
+}
+
+.profile-content {
+    margin-left: 40px;
+}
+
+.profile-content h2 {
+    font-size: 24px;
+    margin-bottom: 10px;
+    color: #333;
+    display: flex;
+    align-items: center;
+}
+
+.profile-content h2 i {
+    margin-right: 10px;
+}
+
+.profile-content p {
+    font-size: 16px;
+    line-height: 1.6;
+    color: #555;
+}
+
+
+.goodAt{
+        display: flex;
+        justify-content: center;   
+        align-items: center; 
+        padding-top: 25px ;
+        padding-bottom: 14px;
+        font-size: 20px;
+        font-weight: 600;
+        color: grey;
+        font-family: cursive;
+    }
+    .main{
+        display: flex;
+        flex-direction: column;
+       
+        padding: 30px;
+        align-items: center;
+     
+    }
+.first{
+    width: 70vw;
+   margin: 5px;
+    height: 35px;
+    display: flex;
+    background-color: rgb(218, 218, 218);
+    border-radius: 20px;
+}
+.firstkandar{
+    color: white;
+    text-align: center;
+border:3px solid black;
+width: 68vw;
+background-color: black;
+border-radius: 20px;
+
+}
+
+.second{
+    width: 70vw;
+    margin: 5px;
+     height: 35px;
+     display: flex;
+     background-color: rgb(218, 218, 218);
+     border-radius: 20px; 
+}
+.secondkandar{
+    color: white;
+    text-align: center;
+border:3px solid black;
+width: 65vw;
+background-color: black;
+border-radius: 20px; 
+}
+.third{
+    width: 70vw;
+    margin: 5px;
+     height: 35px;
+     display: flex;
+     background-color: rgb(218, 218, 218);
+     border-radius: 20px; 
+}
+.thirdkandar{
+    color: white;
+    text-align: center;
+border:3px solid black;
+width: 60vw;
+background-color: black;
+border-radius: 20px; 
+}
+.pp{
+font-family: sans-serif;
+padding: 10px;
+}
+
+
+.stats-section {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: #5a5a5a;
+    padding: 40px;
+    color: white;
+    text-align: center;
+}
+
+.stat-item {
+    flex: 1;
+}
+
+.stat-item h2 {
+    font-size: 48px;
+    margin: 0;
+}
+
+.stat-item p {
+    font-size: 18px;
+    margin: 10px 0 0;
+}
